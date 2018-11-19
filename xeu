@@ -1,0 +1,8 @@
+#!/bin/bash
+
+while :; do
+    echo -n "$USER@$(cat /etc/hostname):[ ${PWD##*/} ]$ "
+    read input
+    echo -e "===\n$input" >> /tmp/time.log
+    { time eval $input 2>&1 ; } 2>> /tmp/time.log
+done
