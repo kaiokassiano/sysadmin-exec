@@ -6,7 +6,7 @@ sum_user_decimal=$(cat /tmp/time.log | grep user | awk -Fm '{print $2}' | awk -F
 
 # sum of integer values
 sum_sys_integer=$(cat /tmp/time.log | grep sys | awk -Fm '{print $1}' | awk '{print $2}' | awk '{sum+=$1} END {printf "%d", sum}')
-sum_user_integer=$(cat /tmp/time.log | grep sys | awk -Fm '{print $1}' | awk '{print $2}' | awk '{sum+=$1} END {printf "%d", sum}')
+sum_user_integer=$(cat /tmp/time.log | grep user | awk -Fm '{print $1}' | awk '{print $2}' | awk '{sum+=$1} END {printf "%d", sum}')
 
 # calculate ammount of time of cpu spent, in seconds
 total_sys=$(echo "scale=3;($sum_sys_integer * 60) + $sum_sys_decimal" | bc | awk '{printf "%.3f\n", $0}')
