@@ -282,3 +282,283 @@ user	0m0.132s
 sys	0m0.040s
 ===
 cp /tmp/time.log .
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.000s
+===
+git status
+
+real	0m0.005s
+user	0m0.004s
+sys	0m0.000s
+===
+vim time.log
+
+real	0m6.547s
+user	0m0.048s
+sys	0m0.024s
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+vim
+
+real	0m5.099s
+user	0m0.040s
+sys	0m0.028s
+===
+git status
+
+real	0m0.008s
+user	0m0.000s
+sys	0m0.008s
+===
+git add time.log
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.000s
+===
+git status
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.008s
+===
+vim time.log
+
+real	0m8.427s
+user	0m0.048s
+sys	0m0.016s
+===
+cat time.log
+
+real	0m0.013s
+user	0m0.000s
+sys	0m0.000s
+===
+git commit
+
+real	0m6.359s
+user	0m0.168s
+sys	0m0.052s
+===
+git push origin master
+
+real	0m9.075s
+user	0m0.216s
+sys	0m0.132s
+===
+ls
+
+real	0m0.003s
+user	0m0.004s
+sys	0m0.000s
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+cd ..
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+ls -lah
+
+real	0m0.022s
+user	0m0.004s
+sys	0m0.012s
+===
+man ls
+
+real	0m6.298s
+user	0m0.044s
+sys	0m0.012s
+===
+ls -d
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+ls -ld
+
+real	0m0.022s
+user	0m0.008s
+sys	0m0.008s
+===
+man ls
+
+real	0m12.897s
+user	0m0.036s
+sys	0m0.016s
+===
+ls -lah
+
+real	0m0.019s
+user	0m0.008s
+sys	0m0.004s
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.004s
+===
+cat xeu
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+cat command.err
+
+real	0m0.003s
+user	0m0.004s
+sys	0m0.000s
+===
+cat current.txt
+
+real	0m0.009s
+user	0m0.000s
+sys	0m0.000s
+===
+ls -lah
+
+real	0m0.021s
+user	0m0.016s
+sys	0m0.004s
+===
+cat /tmp/time.log
+
+real	0m0.006s
+user	0m0.000s
+sys	0m0.000s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+cat /tmp/time.log
+
+real	0m0.017s
+user	0m0.000s
+sys	0m0.004s
+===
+ls
+
+real	0m0.002s
+user	0m0.004s
+sys	0m0.000s
+===
+cd /
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+find . | grep "*.conf"
+
+real	0m6.734s
+user	0m0.472s
+sys	0m1.616s
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.004s
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+pwd
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+cd
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+pwd
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+cat /tmp/time.log
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+ls
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.000s
+===
+cd sysadmin-exec/
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+bash time_summary.sh
+
+real	0m0.041s
+user	0m0.004s
+sys	0m0.004s
+===
+ls
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.000s
+===
+bash histogram.sh
+
+real	0m0.010s
+user	0m0.000s
+sys	0m0.000s
