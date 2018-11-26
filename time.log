@@ -1,0 +1,284 @@
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.004s
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+sl
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+===
+sls
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+===
+ls
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.000s
+===
+ls
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.000s
+===
+dls
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+===
+dla
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.004s
+===
+sdlals
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+===
+ls
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+===
+ls
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.004s
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+adsoij
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+===
+osaidj
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+===
+./a.out
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+===
+./a.out
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.004s
+===
+clear
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+clear
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+ls -l | awk '{print $1}'
+
+real	0m0.027s
+user	0m0.016s
+sys	0m0.004s
+===
+guyasdjk
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+touch b
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+===
+vim b
+
+real	0m4.509s
+user	0m0.052s
+sys	0m0.020s
+===
+cat b
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.004s
+===
+man less
+
+real	0m7.937s
+user	0m0.132s
+sys	0m0.020s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+cd sysadmin-exec/
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+===
+ls
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+===
+git status
+
+real	0m0.006s
+user	0m0.000s
+sys	0m0.004s
+===
+git add time.log
+
+real	0m0.006s
+user	0m0.000s
+sys	0m0.004s
+===
+ls
+
+real	0m0.002s
+user	0m0.004s
+sys	0m0.000s
+===
+git status
+
+real	0m0.007s
+user	0m0.000s
+sys	0m0.004s
+===
+git commit
+
+real	0m12.788s
+user	0m0.132s
+sys	0m0.040s
+===
+cp /tmp/time.log .
